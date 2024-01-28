@@ -1,0 +1,13 @@
+media = -1
+np1 = 0
+np2 = 0
+
+while media < 0 or media > 10:
+    np1 = int(input("Digite a sua nota da NP1: "))
+    np2 = int(input("Digite a sua nota da NP2: "))
+    media = (np1 + np2) / 2
+
+if media >=7:
+    print("Aprovado!")
+else:
+    print("Reprovado.")
