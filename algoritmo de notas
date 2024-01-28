@@ -1,0 +1,7 @@
+notas = []
+
+for x in range(30):
+    codigo_aluno = input("RA: ")
+    nota = float(input("Nota do aluno: "))
+    resultado = [codigo_aluno, nota]
+    notas.append(resultado)
