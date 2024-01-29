@@ -6,7 +6,6 @@ nome = input("Nome: ")
 
 while True:
 
-    #limpando terminal(usando a importação do OS)
     os.system('cls')
 
     if len(mensagens) > 0:
@@ -14,12 +13,10 @@ while True:
             print(m['nome'], "-", m['texto'])
     print("________________")
 
-    #obtendo texto
     texto = input("Mensagem: ")
     if texto == "fim":
         break
 
-    #adicionando mensagem na lista
     mensagens.append({
         "nome": nome,
         "texto": texto
