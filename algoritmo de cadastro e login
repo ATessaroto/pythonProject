@@ -1,5 +1,5 @@
 def cadastrar_usuario():
-    usuario = input("Digite o seu nome de usuário: ")
+    usuario = input("Digite seu nome de usuário: ")
     senha = input("Digite a sua senha: ")
     return usuario, senha
 
