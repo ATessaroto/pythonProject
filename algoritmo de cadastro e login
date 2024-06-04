@@ -1,6 +1,6 @@
 def cadastrar_usuario():
-    usuario = input("Digite seu nome de usuário: ")
-    senha = input("Digite a sua senha: ")
+    usuario = input("Type your username: ")
+    senha = input("Type your password: ")
     return usuario, senha
 
 def realizar_login(cadastro, usuario, senha):
@@ -13,11 +13,11 @@ def main():
     cadastro = {}
 
     while True:
-        print("\n1 - cadastrar novo usuário")
-        print("2 - fazer login")
-        print("3 - sair")
+        print("\n1 - SignUp your user")
+        print("2 - Sign In")
+        print("3 - Exit")
 
-        escolha = input("escolha uma opção: ")
+        escolha = input("choose an option: ")
 
         if escolha == "1":
             novo_usuario, nova_senha = cadastrar_usuario ()
